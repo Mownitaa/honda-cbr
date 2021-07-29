@@ -18,15 +18,17 @@
 <body>
     <header>
         <div class="banner row d-flex justify-content-center align-items-center mb-5 p-5">
-            <div class="col-lg-6 text-white">
+            <div class="col-lg-6 text-white ">
                 <p>Computer-controlled digital transistorized with electronic advance</p>
-                <h1>Honda CBR 300R</h1>
-                <p>Honda was the first Japanese automobile manufacturer to release a dedicated luxury brand, Acura, in
+                <h1 class="fw-bold">Honda CBR 300R</h1>
+                <p class="cus-color">Honda was the first Japanese automobile manufacturer to release a dedicated luxury
+                    brand, Acura, in
                     1986.
                     Aside from their core automobile and motorcycle businesses, Honda also manufactures garden equipment
                 </p>
                 <!-- Button trigger modal -->
-                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                <button type="button" class="btn custom-button text-white w-auto px-5 py-2" data-bs-toggle="modal"
+                    data-bs-target="#exampleModal">
                     Purchase
                 </button>
 
@@ -35,43 +37,50 @@
                     aria-hidden="true">
                     <div class="modal-dialog">
                         <div class="modal-content">
-                            <div class="modal-header">
-                                <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                            <div class="modal-header text-dark">
+                                <h5 class="modal-title" id="exampleModalLabel">Discount Alert <span
+                                        class="custom-text">!!!</span></h5>
                                 <button type="button" class="btn-close" data-bs-dismiss="modal"
                                     aria-label="Close"></button>
                             </div>
-                            <div class="modal-body">
-
+                            <div class="modal-body text-dark">
+                                Our Company is now offering you <span class="custom-text">20% discount</span> on all the
+                                brands for some specific models
+                                of our avaiable bikes.You'll
+                                get <span class="custom-text">5% instant cashback</span> if you purchase our products
+                                from online.So what are you waiting for.Hurry up!
                             </div>
                             <div class="modal-footer">
                                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                                <button type="button" class="btn btn-primary">Save changes</button>
+                                <button type="button" class="btn custom-button text-white">Next</button>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="col-lg-6">
-                <img class="img-fluid" src="images/header-bike.png" alt="">
+            <div class="col-lg-6 mt-5 ">
+                <img class="img-fluid " src="images/header-bike.png" alt="">
             </div>
         </div>
     </header>
     <!-- main section -->
     <main>
         <!-- featured bikes text-->
-        <section class="text-center">
-            <h1>Featured Bikes 2021</h1>
-            <p>Best Bike collection</p>
+        <section class="text-center py-3">
+            <h1 class="fw-bold">Featured Bikes 2021</h1>
+            <p class="custom-text fw-bold">Best bike collection
+
+            </p>
         </section>
         <!-- featured bikes -->
 
         <section class="container">
             <div class="row  d-flex my-5 ps-5 ms-5">
                 <div class="col-lg-4">
-                    <img class="gray-bike w-75" src="images/feature-bike.jpg" alt="">
+                    <img class="gray-bike w-75 pb-5" src="images/feature-bike.jpg" alt="">
                 </div>
                 <div class="col-lg-4">
-                    <img class="w-75" src="images/feature-bike.jpg" alt="">
+                    <img class="w-75 pb-5" src="images/feature-bike.jpg" alt="">
                 </div>
                 <div class="col-lg-4">
                     <img class="gray-bike w-75" src="images/feature-bike.jpg" alt="">
@@ -80,61 +89,109 @@
         </section>
 
         <!--clients card section -->
-        <section class="container">
+        <section class="container py-5">
             <div class="text-center py-4">
-                <h2>Happy Clients says</h2>
+                <h1 class="fw-bold fs-lg pb-3">Happy <span class="d-block d-lg-inline custom-text">Clients says</span>
+                </h1>
             </div>
             <div>
                 <div class="row row-cols-1 row-cols-md-3 g-4">
                     <div class="col">
-                        <div class="card h-100">
-                            <img class="w-50" src="images/user-1.png" class="card-img-top" alt="...">
-                            <div class="card-body">
-                                <h5 class="card-title">Card title</h5>
-                                <p class="card-text">This is a longer card with supporting text below as a natural
-                                    lead-in to additional content. This content is a little bit longer.</p>
+                        <div class="card h-100 py-4">
+                            <div class=" d-flex justify-content-center">
+                                <img class="w-50" src="images/user-1.png" class="card-img-top" alt="...">
+                            </div>
+                            <div class="card-body text-center">
+
+                                <p class="card-text lh-base pt-3 px-1">Slate helps you see how
+
+                                    many more days you need
+
+                                    to work to reach your financial
+
+                                    goal for the month and year.</p>
+
+                                <i class="fas fa-star filled custom-text"></i>
+                                <i class="fas fa-star filled custom-text"></i>
+                                <i class="fas fa-star filled custom-text"></i>
+                                <i class="fas fa-star filled  custom-text"></i>
+                                <i class="far fa-star custom-text"></i>
+                                <h6 class="text-info py-3">Regina Miles</h6>
+                                <h6>Banker</h6>
+
                             </div>
                         </div>
                     </div>
 
                     <div class="col">
-                        <div class="card h-100">
-                            <img class="w-50" src="images/user-2.png" class="card-img-top" alt="...">
-                            <div class="card-body">
-                                <h5 class="card-title">Card title</h5>
-                                <p class="card-text">This is a longer card with supporting text below as a natural
-                                    lead-in to additional content.</p>
+                        <div class="card h-100 py-4">
+                            <div class="d-flex justify-content-center">
+                                <img class="w-50" src="images/user-2.png" class="card-img-top" alt="...">
+                            </div>
+                            <div class="card-body text-center">
+
+                                <p class="card-text  lh-base pt-3 px-1">Slate helps you see how
+
+                                    many more days you need
+
+                                    to work to reach your financial
+
+                                    goal for the month and year.</p>
+                                <i class="fas fa-star custom-text"></i>
+                                <i class="fas fa-star custom-text"></i>
+                                <i class="fas fa-star custom-text"></i>
+                                <i class="fas fa-star custom-text"></i>
+                                <i class="far fa-star custom-text"></i>
+                                <h6 class="text-info py-3">Regina Miles</h6>
+                                <h6>Banker</h6>
                             </div>
                         </div>
                     </div>
                     <div class="col">
-                        <div class="card h-100">
-                            <img class=" border rounded-circle  w-75" src="images/user-3.jpg" class="card-img-top"
-                                alt="...">
-                            <div class="card-body">
-                                <p class="card-text">Slate helps you see how
+                        <div class="card h-100 py-4">
+                            <div class="d-flex justify-content-center">
+                                <img class=" w-50 rounded-circle user-3-img" src="images/user-3.jpg"
+                                    class="card-img-top" alt="...">
+                            </div>
+                            <div class="card-body text-center">
+                                <p class="card-text  lh-base pt-3 px-1">Slate helps you see how
 
                                     many more days you need
 
                                     to work to reach your financial
 
                                     goal for the month and year</p>
+                                <i class="fas fa-star custom-text"></i>
+                                <i class="fas fa-star custom-text"></i>
+                                <i class="fas fa-star custom-text"></i>
+                                <i class="fas fa-star custom-text"></i>
+                                <i class="far fa-star custom-text"></i>
+                                <h6 class="text-info py-3">Regina Miles</h6>
+                                <h6>Banker</h6>
+
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
 
+
+
         </section>
         <!-- FAQ section -->
-        <section class="container my-5">
-            <div class="row ">
-                <div class="col-lg-6">
+        <section class="container my-5 ">
+            <div class="">
+                <h1 class="text-center fw-bold pb-4 pb-lg-5">Frequently <span class="d-block d-lg-inline"> Asked <span
+                            class="custom-text">Questions</span></span>
+                </h1>
+            </div>
+            <div class="row align-items-center py-lg-5">
+                <div class="col-lg-6 col-12 ms-5 mb-5 ms-lg-0 mb-lg-0">
                     <img class="w-75" src="images/faq.png" alt="">
                 </div>
-                <div class="col-lg-6">
+                <div class="col-lg-6 col-12">
                     <div class="accordion accordion-flush" id="accordionFlushExample">
-                        <div class="accordion-item">
+                        <div class="accordion-item border mb-4">
                             <h2 class="accordion-header" id="flush-headingOne">
                                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                     data-bs-target="#flush-collapseOne" aria-expanded="false"
@@ -214,19 +271,19 @@
         <!-- caurosel bike -->
         <section class="container my-4">
             <div>
-                <h1>Some Popular Brands</h1>
+                <h1 class="text-center banner text-white py-3">Some Popular Brands</h1>
             </div>
             <div id="carouselExampleControls" class="carousel slide shadow mt-3" data-bs-ride="carousel">
                 <div class="carousel-inner">
                     <div class="carousel-item p-5 active">
                         <div class="row p-5 d-flex align-items-center info-bg bg-gradient">
-                            <div class="col-lg-7">
+                            <div class="col-lg-7 mb-4">
                                 <h1>Yamaha Bikes</h1>
                                 <p>
                                     Hero bikes price starts at Rs. 49,800 . Hero offers 14 new bike models and 6
                                     upcoming models in India</p>
 
-                                <div class="btn buy-now-btn btn-danger">Buy Now</div>
+                                <div class="btn buy-now-btn btn-dark">Read More</div>
                             </div>
                             <div class="col-lg-5">
                                 <img src="images/brand-1.jpg" class="d-block w-100" alt="...">
@@ -235,13 +292,13 @@
                     </div>
                     <div class="carousel-item">
                         <div class="row p-5 d-flex align-items-center info-bg bg-gradient">
-                            <div class="col-lg-7">
+                            <div class="col-lg-7 mb-4">
                                 <h1>Hero Bikes</h1>
                                 <p>
                                     Hero bikes price starts at Rs. 49,800 . Hero offers 14 new bike models and 6
                                     upcoming models in India</p>
 
-                                <div class="btn buy-now-btn btn-danger">Buy Now</div>
+                                <div class="btn buy-now-btn btn-dark">Read More</div>
                             </div>
                             <div class="col-lg-5">
                                 <img src="images/brand-2.jpg" class="d-block w-100" alt="...">
@@ -251,13 +308,13 @@
                     <div class="carousel-item">
 
                         <div class="row p-5 d-flex align-items-center info-bg bg-gradient ">
-                            <div class="col-lg-7">
+                            <div class="col-lg-7 mb-4">
                                 <h1>Honda Bikes</h1>
                                 <p>
                                     Honda bikes price starts at Rs. 64,510 . Honda offers 18 new bike models and 14
                                     upcoming models in India. </p>
 
-                                <div class="btn buy-now-btn btn-danger">Buy Now</div>
+                                <div class="btn buy-now-btn btn-dark">Read More</div>
                             </div>
                             <div class="col-lg-5">
                                 <img src="images/brand-3.jpg" class="d-block w-100" alt="...">
@@ -279,31 +336,37 @@
         <br><br><br>
 
         <!-- video section -->
-        <section class="container shadow border rounded-start mb-5">
-            <div class="text-center text-uppercase">
-                <h1>Stay Tuned with our Youtube channel</h1>
+        <section class="container shadow border rounded-start mb-5 ">
+            <div class="text-center text-uppercase banner text-white py-3">
+                <h1 class="fw-bold">Stay Tuned with our Youtube channel</h1>
                 <h3>For more exciting updates</h3>
             </div>
-            <div class="row d-flex py-3 ps-4 banner">
-                <div class="col-lg-5">
-                    <iframe width="400" height="225" src="https://www.youtube.com/embed/BIAmZHw1KXE"
+            <div class="row d-flex py-3">
+                <div class="col-lg-5 col-sm-12">
+                    <iframe width="380" height="225" src="https://www.youtube.com/embed/BIAmZHw1KXE"
                         title="YouTube video player" frameborder="0"
                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                         allowfullscreen></iframe>
                 </div>
-                <div class="col-lg-7 text-white">
-                    <h1>ABOUT Honda CBR 250RR</h1>
-                    <p>Honda CBR 250RR is an entry-level twin cylinder supersport motorcycle from the Japanese brand.
-                        This
-                        bike is already available in some of the international markets. It is a very special product
-                        from
-                        honda, as it performs exceptionally well for a 250cc twin-cylinder motorcycle.Honda has revealed
-                        the
-                        new 2021 model of CBR 250RR. The new CBR 250RR has a more powerful engine, it now produces 40 Hp
-                        of
-                        maximum power at 12,500 RPM. It now comes in different colour options and draws its design from
-                        its
-                        elder sibling CBR1000RR.</p>
+                <div class="col-lg-7 col-sm-12 ">
+                    <article>
+                        <h1 class="fw-bold custom-text">ABOUT HONDA CBR 250RR</h1>
+                        <p>Honda CBR 250RR is an entry-level twin cylinder supersport motorcycle from the Japanese
+                            brand.
+                            This
+                            bike is already available in some of the international markets. It is a very special product
+                            from
+                            honda, as it performs exceptionally well for a 250cc twin-cylinder motorcycle.Honda has
+                            revealed
+                            the
+                            new 2021 model of CBR 250RR. The new CBR 250RR has a more powerful engine, it now produces
+                            40 Hp
+                            of
+                            maximum power at 12,500 RPM. It now comes in different colour options and draws its design
+                            from
+                            its
+                            elder sibling CBR1000RR.</p>
+                    </article>
                 </div>
             </div>
         </section>

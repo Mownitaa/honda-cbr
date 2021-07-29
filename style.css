@@ -1,17 +1,38 @@
 /* google font */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+
+body,html{
+    overflow-x:hidden;
+}
 body{
     margin:0;
     padding:0;
-    overflow-x:hidden;
     font-family: 'Poppins', sans-serif;
 }
-.banner{
-    background-color:#264653 ;
+/* color customization */
+:root{
+    --custom-color: #E76F51;
 }
+.custom-button{
+    background-color: var(--custom-color) !important;
+}
+.custom-text{
+    color:var(--custom-color) ;
+}
+/* banner parts  */
+.banner {
+    background-color:#264653;
+}
+.cus-color{
+    color: #E0E0E0;
+}
+/* bike part */
 .gray-bike{
     filter: grayscale(100%);
 }
-.accordian-btn{
-    background-color: white;
+/* user part */
+.user-3-img{
+    height: 177px;
 }
+
+
